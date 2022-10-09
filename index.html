@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flappy Dunk</title>
+    <script src="https://unpkg.com/kaboom/dist/kaboom.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="h-screen w-screen">
+    <!-- form with name field -->
+    <div
+      id="home-screen"
+      class="h-full flex justify-center items-center flex-col"
+    >
+      <img src="https://img.icons8.com/plasticine/344/flappy-dunk.png" />
+      <form
+        id="name_form"
+        class="bg-white w-[500px] h-[100px] flex flex-col justify-center items-center px-4 rounded-lg shadow-lg bg-[#ff8f00]"
+      >
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          class="w-full bg-gray-100 rounded-md outline-none px-2 py-1 h-10"
+          required
+        />
+        <button
+          type="submit"
+          class="bg-white text-black rounded-md px-2 py-1 mt-2"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

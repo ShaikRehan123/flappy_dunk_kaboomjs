@@ -1,0 +1,7 @@
+#home-screen{
+    background-image: url("https://res.cloudinary.com/sample1105/image/upload/v1664856634/flappy-bird/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
