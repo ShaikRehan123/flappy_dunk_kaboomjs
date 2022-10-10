@@ -311,19 +311,6 @@ name_form.addEventListener("submit", (e) => {
         }
       });
     }
-
-    const pauseGame = () => {
-      startPlay = false;
-      pause();
-    };
-
-    const resumeGame = () => {
-      startPlay = true;
-      resume();
-    };
-
-    onKeyPress("p", pauseGame);
-    onClick("resume", resumeGame);
   });
 
   scene("gameover", (score, CurrentPlayerName) => {
